@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# macOS files
+.DS_Store
+
+# Python lock file
+poetry.lock
+Pipfile.lock
+
+# Python test/cache
+.cache/
+pytest_cache/
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Python-specific packaging
+dist/
+build/
+
+# Pydantic cache (optional)
+__pydantic__/ 
